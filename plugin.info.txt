@@ -1,0 +1,7 @@
+base   composer
+author Dennis Ploeger
+email  develop@dieploegers.de
+date   2012-09-18
+name   Composer-Plugin
+desc   Creates a single page from a chosen directory. All files are included, so that you are able to print it or save it as single page. (Previous author: Michael Grosser)
+url    https://www.dokuwiki.org/plugin:composer
