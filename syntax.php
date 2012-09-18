@@ -10,28 +10,13 @@ require_once(DOKU_INC.'inc/search.php');
 *
 * print:
 * 		print optimization
-* 	numbers + how_deep:
+* numbers + how_deep:
 * 		numbering for headers(1.1.3 hallo...)
-* 	absolute:
+* absolute:
 * 		absolute indentation of headers, corresponding to file-depth in namespace
 * 		or (default) relative indentation
 */
 class syntax_plugin_composer extends DokuWiki_Syntax_Plugin {
-
-    /**
-     * return some info
-     */
-    function getInfo(){
-        return array(
-            'author' => 'Michael Grosser',
-            'email'  => 'grosser.michael[ät]gmail.com',
-            'date'   => '07/09/06',
-            'name'   => 'Composer Plugin',
-            'desc'   => 'Composes a directory to a single page',
-            'url'    => 'http://www.dokuwiki.org/plugin:composer',
-            'version'=> '1.1',
-        );
-    }
 
     /**
      * how to handle <p>
